@@ -86,3 +86,12 @@ dane_do_zapisu<- data.frame(
   Stan_Magazynowy = c(30), 150,80,45,110)
 
 write.csv(dane_do_zapisu, "produkty.csv", rows.names = "FALSE")
+
+#zad.5
+library(readr)
+sp500_ceny_zamkniecia_od_poczatku_roku <- read_csv("sp500_ceny_zamkniecia_od_poczatku_roku.csv")
+sp500_ceny_zamkniecia_od_poczatku_roku$Data
+sp500_ceny_zamkniecia_od_poczatku_roku$Cena_Zamkniecia
+
+
+}
